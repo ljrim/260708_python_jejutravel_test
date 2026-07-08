@@ -1,0 +1,21 @@
+# ── 배포에 올리지 않는(=업로드 제외) 파일들 ──
+
+# 용량이 큰 원본 데이터 (앱은 경량 jeju_data.csv.gz 만 사용)
+제주상권.csv
+제주상권.xlsx
+제주카페.xlsx
+
+# 파이썬 캐시/임시 파일
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 가상환경
+.venv/
+venv/
+env/
+
+# 에디터/OS 설정
+.vscode/
+.idea/
+.DS_Store

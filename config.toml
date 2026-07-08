@@ -1,0 +1,10 @@
+# 스트림릿 앱 기본 설정 (테마 색상)
+[theme]
+primaryColor = "#0a9396"           # 강조 색 (버튼 등) - 제주 바다색 느낌
+backgroundColor = "#ffffff"        # 배경색
+secondaryBackgroundColor = "#e9f5f4"  # 사이드바/카드 배경색
+textColor = "#1b2a2a"              # 글자색
+font = "sans serif"                # 글꼴
+
+[server]
+headless = true                    # 배포 시 브라우저 자동 실행 안 함
